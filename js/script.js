@@ -24,4 +24,5 @@ guessButton.addEventListener("click", function(e){
     e.preventDefault();
     const letterEntry = letterInput.value;
     console.log(letterEntry);
+    letterInput.value = "";
 });
